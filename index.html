@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="box"> </section>
+    <form class="container">
+        <input id="login" type="text" placeholder="E-mail" maxlength="256">
+        <br>
+        <input id="senha" type="password" placeholder="Senha">
+        <br>
+        <br>
+        <button onclick="entrar()">Entrar</button>
+    </form>
+    <div class="option">
+        <h5>Ou</h5>
+    </div>
+    <section class="google">
+        <div class="encaixe">d
+            <a href="https://accounts.google.com/AddSession/signinchooser?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&flowName=GlifWebSignIn&flowEntry=AddSession"
+                target="blank">
+                <h3>Entrar com o Google</h3>
+            </a>
+        </div>
+        <a
+            href="https://accounts.google.com/AddSession/signinchooser?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&flowName=GlifWebSignIn&flowEntry=AddSession"><img
+                src="https://cdn-icons-png.flaticon.com/512/281/281764.png?w=740&t=st=1669862719~exp=1669863319~hmac=f0a8c7ccef1e540ed7b324d1ef9dd41afbd5e0f72f52c0910e49c4e07928a2a1"
+                alt="logo_google" width="23" height="23"></a>
+    </section>
+    <div class="line"></div>
+    <div class="line_2"></div>
+    <div id="alert">
+        <h5>E-mail ou senha <strong>inválido</strong>! Tente novamente.</h5>
+        <img id="botao" onclick="fechar()" src="https://cdn-icons-png.flaticon.com/512/106/106830.png" alt="botao_close"
+            width="20" height="20">
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
